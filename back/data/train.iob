@@ -1,0 +1,19 @@
+n i h a o	O O O O O	greet
+h i	O O	greet
+h e l l o	O O O O O	greet
+你 叫 什 么	O O O O	name
+你 是 谁	O O O	name
+w h o , a r e , y o u ?	O O O O O O O O O O O O	name
+你 爸 是 谁 ？	O O O O O	father
+你 的 主 人 是 谁 ？	O O O O O O O	father
+你 爸 是 谁	O O O O	father
+你 的 主 人 是 谁	O O O O O O	father
+你 能 干 啥	O O O O	feature
+你 能 做 什 么	O O O O O	feature
+你 可 以 做 什 么	O O O O O O	feature
+你 可 以 做 啥	O O O O O	feature
+你 有 什 么 功 能	O O O O O O	feature
+学 校 哪 里 有 干 洗 店 ？	O O O O O B-shoes_cleaning O I-shoes_cleaning O	sc_location
+工 程 训 练 中 心 在 哪 ？	B-et_center O O O O I-et_center O O O	et_location
+小 刘 米 线 在 哪 ？	B-rice_noodles O O I-rice_noodles O O O	rn_location
+学 校 哪 里 有 台 球 厅 ？	O O O O O B-billiard O I-billiard O	b_location

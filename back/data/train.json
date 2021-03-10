@@ -1,0 +1,129 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+  {
+    "text": "nihao",
+    "intent": "greet",
+    "entities": []
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "entities": []
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "entities": []
+  },
+  {
+    "text": "你叫什么",
+    "intent": "name",
+    "entities": []
+  },
+  {
+    "text": "你是谁",
+    "intent": "name",
+    "entities": []
+  },
+  {
+    "text": "who are you?",
+    "intent": "name",
+    "entities": []
+  },
+  {
+    "text": "你爸是谁？",
+    "intent": "father",
+    "entities": []
+  },
+  {
+    "text": "你的主人是谁？",
+    "intent": "father",
+    "entities": []
+  },
+  {
+    "text": "你爸是谁",
+    "intent": "father",
+    "entities": []
+  },
+  {
+    "text": "你的主人是谁",
+    "intent": "father",
+    "entities": []
+  },
+  {
+    "text": "你能干啥",
+    "intent": "feature",
+    "entities": []
+  },
+  {
+    "text": "你能做什么",
+    "intent": "feature",
+    "entities": []
+  },
+  {
+    "text": "你可以做什么",
+    "intent": "feature",
+    "entities": []
+  },
+  {
+    "text": "你可以做啥",
+    "intent": "feature",
+    "entities": []
+  },
+  {
+    "text": "你有什么功能",
+    "intent": "feature",
+    "entities": []
+  },
+  {
+    "text": "学校哪里有干洗店？",
+    "intent": "sc_location",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "干洗店",
+        "entity": "shoes_cleaning"
+      }
+    ]
+  },
+  {
+    "text": "工程训练中心在哪？",
+    "intent": "et_location",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "工程训练中心",
+        "entity": "et_center"
+      }
+    ]
+  },
+  {
+    "text": "小刘米线在哪？",
+    "intent": "rn_location",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "小刘米线",
+        "entity": "rice_noodles"
+      }
+    ]
+  },
+  {
+    "text": "学校哪里有台球厅？",
+    "intent": "b_location",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "台球厅",
+        "entity": "billiard"
+      }
+    ]
+  }
+]
+}
+}
